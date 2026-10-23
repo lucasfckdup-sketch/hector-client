@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "hectorclient",
+  "version": "${version}",
+  "name": "Hector Client",
+  "description": "A lightweight client-side HUD menu opened with Right Shift for Minecraft Java 1.21.11.",
+  "authors": [
+    "Hector Client"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.hector.client.HectorClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
